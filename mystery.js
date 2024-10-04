@@ -1,6 +1,6 @@
-const suspectsArray = ["Miss Scarlet", "Professor Plum", "Mrs. Peacock", "Colonel Mustard", "Mr. Green", "Mrs. White"];
+const suspectsArray = ["Playboi Carti", "Travis Scott", "Celine Dion", "Lebron James", "Asap Rocky", "Mr. Pluto"];
 const weaponsArray = ["Rope", "Knife", "Candlestick", "Revolver", "Lead Pipe", "Wrench", "Poison", "Axe"];
-const roomsArray = ["Kitchen", "Ballroom", "Conservatory", "Dining Room", "Billiard Room", "Library", "Lounge", "Hall", "Study", "Cellar"];
+const roomsArray = ["Kitchen", "Ballroom", "Conservatory", "Dining Room", "bathroom", "Library", "Lounge", "Hall", "Study", "Cellar"];
 
 function selectRandom(array) {
   return array[Math.floor(Math.random() * array.length)];
